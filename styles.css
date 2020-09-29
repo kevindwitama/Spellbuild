@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 11pt;
+    line-height: 1.5;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    color: #B20A0D;
+    padding: 12px;
+}
+
+.header a {
+    color: #B20A0D;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: none;
+}
+
+.header a span {
+    font-size: 4em;
+    font-family: "Palatino Linotype", serif;
+    font-weight: bold;
+}
+
+.navbar, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #B20A0D;
+    color: #222222;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul a li {
+    color: #f0f0f0;
+    font-size: 14pt;
+}
+
+.navbar ul a li:hover {
+    background-color: #940709;
+}
+
+.navbar div, .navbar ul li, .footer {
+    padding: 10px 32px;
+}
+
+.home-body {
+    background: url(img/home/bg.jpg);
+    background-position: right top;
+}
+
+.comm-body {
+    background: url(img/community/bg.jpg);
+    background-position: right top;
+}
+
+.about-body {
+    background: url(img/about/bg.jpg);
+    background-position: center top;
+}
+
+.buy-body {
+    background: url(img/buy/bg.jpg);
+    background-position: center top;
+}
+
+.home-body, .comm-body, .about-body, .buy-body {
+    background-repeat: no-repeat;
+    background-size: auto 1080px;
+}
+
+body {
+    background-color: #444444;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+.content {
+    padding: 24px 16px;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.content .blurb {
+    padding: 40px 16px;
+    margin: 16px;
+    align-items: center;
+    background-color: rgba(34, 34, 34, .8);
+}
+
+.content .blurb h3 {
+    padding: 12px;
+    margin-top: 32px;
+}
+
+.content .blurb a h2 {
+    padding: 12px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    background-color: #222222;
+    color: #de0b0e;
+}
+
+.content .blurb a:hover h2 {
+    background-color: #333333;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin: 40px 150px;
+    margin-bottom: 80px;
+    background-color: rgba(34, 34, 34, .8);
+}
+
+.media-content .detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.media-content .detail .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.media-heading-lower, .media-heading-inner {
+    padding: 16px;
+}
+
+.media-heading-lower {
+    margin-top: 12px;
+}
+
+.media-content .detail .img-container .img img {
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    padding: 16px 32px;
+    object-fit: cover
+}
+
+.about-content, .media-content, .comm-content {
+    color: #f0f0f0;
+}
+
+.about-content .detail .helpTopic>* {
+    margin: 12px 0px;
+    padding: 0px 20px;
+}
+
+.about-content .detail .helpTopic p {
+    width: 350px;
+    display: block;
+}
+
+.comm-content {
+    text-align: center;
+}
+
+.comm-content .detail {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    margin: 40px 150px;
+    margin-bottom: 80px;
+    background-color: rgba(34, 34, 34, .8);
+}
+
+.comm-content .detail .links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.comm-content .detail .links-container .links {
+    padding: 20px;
+    width: 340px;
+}
+
+.comm-content .detail .links-container .links img {
+    width: 64px;
+    height: 64px;
+}
+
+.comm-content .detail .links-container .links div {
+    margin-top: 0px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #222222;
+    text-align: center;
+}
+
+.content form {
+    display: flex;
+    justify-content: center;
+}
+
+.content form fieldset {
+    border: 0px;
+    padding: 25px 40px;
+    background-color: rgba(34, 34, 34, .8);
+}
+
+.inputField * {
+    font-size: 12pt;
+}
+
+.inputField, .spacer, .inputBtns  {
+    padding: 5px;
+    margin: 5px;;
+}
+
+input, textarea {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    width: 500px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #f0f0f0;
+    resize: none;
+    color: #f0f0f0;
+}
+
+input:hover, textarea:hover {
+    border: 2px solid rgba(240, 240, 240, 0.5);
+    border-bottom: 2px solid #f0f0f0;
+}
+
+input:focus, textarea:focus {
+    background-color: rgba(34, 34, 34, .5);
+    border: 2px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.inputField label {
+    margin-right: 40px;
+}
+
+#radioF, #radioM, #radioO, #inputAgree {
+    width: 10px;
+}
+
+#radioLabel {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.content fieldset div a {
+    color: #de0b0e;
+    text-decoration: underline;
+}
+
+#inputAgree {
+    margin-right: 10px;
+}
+
+.inputBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px
+}
+
+button {
+    width: 150px;
+    padding: 10px 10px;
+    border: none;
+    background-color: #B20A0D;
+    color: #f0f0f0;
+    margin: 0px 30px
+}
+
+button:hover {
+    background-color: #de0b0e;
+}
+
+button:active{
+    background-color: #940709;
+}
+
+#errorMsg {
+    color: #de0b0e;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.inputErr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    background-color: #222222;
+    color: #f0f0f0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer span {
+    font-size: 8pt;
+}

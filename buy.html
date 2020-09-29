@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spellbuild - Buy</title>
+    <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="buy-body">
+    <div class="header">
+        <div>
+            <a href="index.html"><span>SPELLBUILD</span></a>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="media.html">
+                <li>Media</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="community.html">
+                <li>Community</li>
+            </a>
+            <a href="buy.html">
+                <li>Buy</li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="content">
+        <form id="buyform" action="">
+            <fieldset>
+                <h1>Ready to Play?</h1>
+                <div class="inputField">
+                    <input type="text" id="inputName" placeholder="Full Name" oninput="checkName()">
+                </div>
+
+                <div class="inputField">
+                    <input type="text" id="inputEmail" placeholder="Email" oninput="checkEmail()">
+                </div>
+
+                <div class="inputField">
+                    <input type="text" id="inputUser" placeholder="Username" oninput="checkUser()">
+                </div>
+
+                <div class="inputField">
+                    <input type="password" id="inputPass" placeholder="Password" oninput="checkPass()">
+                </div>
+
+                <div class="inputField">
+                    <input type="password" id="inputPassConf" placeholder="Repeat Password" oninput="confirmPass()">
+                </div>
+
+                <div class="inputField">
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" id="radioF"> <label for="radioF"
+                        id="radioLabel">Female</label>
+                    <input type="radio" name="gender" id="radioM"> <label for="radioM"
+                        id="radioLabel">Male</label>
+                    <input type="radio" name="gender" id="radioO"> <label for="radioO"
+                        id="radioLabel">Other</label>
+                </div>
+
+                <div class="inputField">
+                    <input type="number" id="inputQty" placeholder="Quantity" min="0" oninput="checkQty()">
+                </div>
+
+                <div class="inputField">
+                    <textarea id="inputAddress" form="buyform" placeholder="Address" oninput="checkAddress()"></textarea>
+                </div>
+
+                <div class="inputField">
+                    <input type="checkbox" id="inputAgree" oninput="checkAgreement()">
+                    <label for="inputAgree">I have read and agree to the <a href="#">User Agreement</a></label>
+                </div>
+
+                <div class="inputBtns">
+                    <button type="button" onclick="validate()" id="reserveBtn">Submit</button>
+                    <button type="button" onclick="resetForm()" id="resetBtn">Reset</button>
+                </div>
+
+                <div class="inputErr">
+                    <label id="errorMsg"></label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="footer">
+        <span>Copyright &copy; 2020 Spellbuild - All rights reserved</span>
+    </div>
+</body>
+
+<script type="text/javascript" src="scripts.js"></script>
+<noscript>This browser does not support JavaScript, please use one that is compatible.</noscript>
+
+</html>
