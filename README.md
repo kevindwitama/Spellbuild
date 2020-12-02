@@ -67,3 +67,5 @@ Buy Page Background:
 https://media.dnd.wizards.com/styles/story_banner/public/head-banner/XqiIB8aLLC.jpg
   
 </details>
+
+All images are copyright of their respective owners.
