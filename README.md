@@ -3,7 +3,9 @@ Laboratory project for ISYS6211 Web Based Application Development.
 
 Hand-coded with Visual Studio Code.
 
-This repository is for educational purposes only. No warranty is provided.
+## Disclaimer
+
+This repository is for educational purposes only. Absolutely no warranty is provided.
 
 We are not affiliated with Spellbreak, Dungeons & Dragons, Proletariat Inc., or Wizards of the Coast LLC in any way.
 
