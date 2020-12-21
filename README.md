@@ -5,7 +5,7 @@ Hand-coded with Visual Studio Code.
 
 This repository is for educational purposes only. No warranty is provided.
 
-We are not affiliated with Sepllbreak, Dungeons & Dragons, Proletariat Inc., or Wizards of the Coast LLC in any way.
+We are not affiliated with Spellbreak, Dungeons & Dragons, Proletariat Inc., or Wizards of the Coast LLC in any way.
 
 All images are copyright of their respective owners.
 
